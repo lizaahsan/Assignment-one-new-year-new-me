@@ -4,76 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color:black;
-}
-
-
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 100px;
-  right: 100px;
-  text-align: right;
-  font-size: 16px;
-}
-.btn-us{
-    border: 5px solid red;
-    background-color: red;
-    font-size: 16px;
-    -webkit-text-fill-color: white;
-    border-radius: 5px;
-}
-/*main part start*/
-/* main Top left image */
-.main-top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* main Top right text */
-.main-top-right {
-  position: absolute;
-  top: 100px;
-  right: 100px;
-  text-align: left;
-  padding-right: 2px;
-  padding-top: 210px;
-}
-.main-para{
-  font-size: 16px;
-  text-align: left;
-  padding-right: 2px;
-}
-.main-li{
-font-size: 16px;
-text-align: left;
-padding-right: 50px;
-}
-/*main part end*/
-/*my planes start*/
-.my-planes{
- background-color: blue;
- position: absolute;
-}
-.planes-one{
-  text-align: center;
-}
-/*my planes end*/
-      
-    </style>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="images/banner/banner1.png" alt="Snow" style="width:100%;">
+            <img src="images/banner/banner1.png" alt="Snow" styles="width:100%;">
             <div class="top-right"><h1>
                 All Thinks Are <br>Possible If You <br> believe
             </h1>
@@ -102,30 +38,81 @@ padding-right: 50px;
             literature from 45 BC, making it over <br> 2000 years old. Richard McClintock.
           </p>
           <ul class="main-li">
-            <li><i class='far fa-check-circle' style='font-size:16px'></i>Contrary to popular belief, is not simply.</li>
-            <li><i class='far fa-check-circle' style='font-size:16px'></i>Contrary to popular belief.</li>
-            <li><i class='far fa-check-circle' style='font-size:16px'></i>Contrary to popular , is not simply.</li>
-            <li><i class='far fa-check-circle' style='font-size:16px'></i>Contrary to popular belief, is not simply.</li>
-            <li><i class='far fa-check-circle' style='font-size:16px'></i>Contrary to popular simply.</li>
+            <li><i class='far fa-check-circle' styles='font-size:16px'></i>Contrary to popular belief, is not simply.</li>
+            <li><i class='far fa-check-circle' styles='font-size:16px'></i>Contrary to popular belief.</li>
+            <li><i class='far fa-check-circle' styles='font-size:16px'></i>Contrary to popular , is not simply.</li>
+            <li><i class='far fa-check-circle' styles='font-size:16px'></i>Contrary to popular belief, is not simply.</li>
+            <li><i class='far fa-check-circle' styles='font-size:16px'></i>Contrary to popular simply.</li>
           </ul>
         </div>
-
-      </div>
-      <div class="container">
-        <div class="my-planes">
-<div class="planes-one">
-  <img src="images/icons/web.png">
- <h3>Web Development</h3>
- <p>I want to start</p>
+        <div class="container">
+<p class="my-plans-text">My Plans</p>
+<div class="four-boxes-of-my-planes">
+<div class="box-one">
+  <div class="box-one-img">
+    <img src="images/icons/web.png" alt="web png">
+  </div>
+  <div class="box-one-title">
+    Web development
+  </div>
+  <div class="box-one-para">
+    I want to start
+  </div>
 </div>
-<div class="planes-two"></div>
-<div class="planes-three"></div>
-<div class="planes-four"></div>
+<div class="box-two">
+  <div class="box-one-img">
+    <img src="images/icons/js.png" alt="web png">
+  </div>
+  <div class="box-one-title">
+    Java Script
+  </div>
+  <div class="box-one-para">
+    I want to learn
+  </div>
+</div>
+<div class="box-three">
+  <div class="box-one-img">
+    <img src="images/icons/smoke.png" alt="web png">
+  </div>
+  <div class="box-one-title">
+    Smoking Habit
+  </div>
+  <div class="box-one-para">
+    I want to end
+  </div>
+</div>
+<div class="box-four">
+  <div class="box-one-img">
+    <img src="images/icons/ecom.png" alt="web png">
+  </div>
+  <div class="box-one-title">
+    Ecommerce
+  </div>
+  <div class="box-one-para">
+    I want to develop
+  </div>
+</div>
+</div>
         </div>
-
+<!--end of third container my-plans-->
       </div>
-     
+<!--start of forth container banner-part-->
+<div class="container">
+  <div class="banner-part" style="background-image: url(images/watch.png);">
+    <div class="banner-part-title">Awlays keep a positive<br> mindset</div>
+    <div><button class="banner-button"><P>Call now</P></button></div>
+  </div>
+
+</div>
+<!--end of forth container banner-part-->
+    
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="footer-part">
+          <div class="footer-part-left"></div>  
+          <div class="footer-part-right"></div>
+      </div> <!--end of  container footer-part-->
+    </footer>
 </body>
 </html>

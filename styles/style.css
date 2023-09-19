@@ -1,0 +1,168 @@
+
+    /* Container holding the image and the text */
+    .container {
+      position: relative;
+      text-align: center;
+      color:black;
+    }
+    
+    
+    
+    /* Top right text */
+    .top-right {
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      text-align: right;
+      font-size: 16px;
+    }
+    .btn-us{
+        border: 5px solid red;
+        background-color: red;
+        font-size: 16px;
+        -webkit-text-fill-color: white;
+        border-radius: 5px;
+    }
+    /*main part start*/
+    /* main Top left image */
+    .main-top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      padding-left: 50px;
+    }
+    
+    /* main Top right text */
+    .main-top-right {
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      text-align: left;
+      padding-top: 150px;
+      padding-right: 150px;
+    }
+    .main-para{
+      font-size: 16px;
+      text-align: left;
+      padding-right: 2px;
+    }
+    .main-li{
+    font-size: 16px;
+    text-align: left;
+    padding-right: 50px;
+    }
+    /*main part end*/
+    /*my planes start*/
+.my-plans-text{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 800px;
+  padding-left: 600px;
+
+}
+.four-boxes-of-my-planes{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 900px;
+  display: flex;
+  width: 1200px;
+  height: 300px;
+}
+.box-one{
+  width: 300px;
+  height: 300px;
+}
+.box-one-img{
+  margin-top: 60px;
+}
+.box-one-title{
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
+}
+
+.box-one-para{
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
+}
+.box-two{
+  width: 300px;
+  height: 300px;
+}
+.box-three{
+  width: 300px;
+  height: 300px;
+}
+.box-four{
+  width: 300px;
+  height: 300px;
+}
+    /*my planes end*/
+    /*banner part start*/
+.banner-part{
+position: absolute;
+width: 1150px;
+height: 300px;
+margin-left: 100px;
+margin-top: 1250px;
+background-repeat: no-repeat;
+border-radius: 5px;
+}
+.banner-part-title{
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: 60px;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner-button{
+  width: 160px;
+  height: 64px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+button p{
+  color: tomato;
+  text-align: center;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+    /*banner part end*/
+   .footer-part{
+    position: absolute;
+    width: 1150px;
+    height: 700px;
+    background-color: aqua;
+    margin-top: 1600px;
+    margin-left: 100px;
+    display: flex;
+   }
+    .footer-part-left{
+      width: 500px;
+      height: 500px;
+      background-color: yellowgreen;
+      text-align: left;
+    }
+    .footer-part-right{
+      width: 500px;
+      height: 500px;
+      background-color: orange;
+      margin-left: 150px;
+      text-align: right;
+    }
