@@ -115,6 +115,7 @@ height: 300px;
 margin-left: 100px;
 margin-top: 1250px;
 background-repeat: no-repeat;
+background-image: linear-gradient(to right, red , yellow);
 border-radius: 5px;
 }
 .banner-part-title{
@@ -147,22 +148,110 @@ button p{
    .footer-part{
     position: absolute;
     width: 1150px;
-    height: 700px;
-    background-color: aqua;
+    height: 500px;
+    background-color:black;
     margin-top: 1600px;
     margin-left: 100px;
     display: flex;
    }
     .footer-part-left{
       width: 500px;
-      height: 500px;
-      background-color: yellowgreen;
+      height: 300px;
+      background-color: black;
       text-align: left;
+      margin-top: 100px;
+      margin-left: 200px;
     }
+.footer-left-one{
+  font-size: 45px;
+  font-weight: 700;
+  color: #F8F8F8;
+  font-family: work sans;
+  font-style: normal;
+
+}
+.footer-left-two{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: work sans;
+  color: #FFF;
+  line-height: 26px;
+}
+.footer-left-three{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: work sans;
+  color: #FFF;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-left-four{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: work sans;
+  color: #FFF;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-left-five{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
     .footer-part-right{
       width: 500px;
-      height: 500px;
-      background-color: orange;
+      height: 300px;
+      background-color: black;
       margin-left: 150px;
-      text-align: right;
+      text-align: left;
+      margin-top: 100px;
+      margin-left: 100px;
     }
+    .footer-right-one{
+      font-size: 25px;
+      font-weight: 600;
+      font-style: normal;
+      font-family: work sans;
+      color: #FFF;
+      line-height:normal;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .footer-right-two{
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      font-family: work sans;
+      color: #FFF;
+      line-height:normal;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 324px;
+      height: 64px;
+      border-radius: 10px;
+      text-align:left;
+      padding-left: 20px;
+      padding-top: 25px;
+      border: 5px solid;
+    }
+    .footer-button{
+      width: 170px;
+      height: 64px;
+      color: #FFF;
+      border-radius: 10px;
+      border-color: #FFF;
+      text-align:center;
+      display: flex;
+    }
+    .footer-button p{
+      font-size: 25px;
+      font-style: normal;
+      font-family: work sans;
+      color: tomato;
+      line-height: 10px;
+    }
+    /*footer part end*/
