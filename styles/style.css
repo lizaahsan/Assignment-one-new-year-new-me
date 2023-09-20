@@ -11,10 +11,14 @@
     /* Top right text */
     .top-right {
       position: absolute;
-      top: 100px;
-      right: 100px;
+      top: 200px;
+      right: 300px;
       text-align: right;
       font-size: 16px;
+    }
+    .top-right h1{
+      font-size: 64px;
+      font-weight: 700;
     }
     .btn-us{
         border: 5px solid red;
